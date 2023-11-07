@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
-  font-family: "Inter";
+  font-family: 'Inter';
 }
 
 .header {
-  background-color: #f2f2f2;
   height: 20vh;
   display: flex;
   position: relative;
@@ -92,3 +91,4 @@ body {
 .menu__item:hover {
   background-color: #cfd8dc;
 }
+
