@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              main: "#F2F2F2",
+              tablebg: "#D9D9D9",
+            },
+          },
+        },
+      };
+    </script>
+</head>
+<body>
+    <div class="flex gap-2 bg-main">
+        <div class="bg-tablebg w-1/2 rounded-lg">
+          <div class="flex justify-between p-2 ">
+            <div class="flex gap-3">
+              <span class="inline-block align-middle">1.</span>
+              <img class="w-16" src="./picture/bvb.png" alt="fail" />
+              <div class="text-center align-middle">Borussia Dortmund</div>
+            </div>
+            <div class="">15</div>
+          </div>
+        </div>
+</body>
+</html>
