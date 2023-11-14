@@ -68,7 +68,7 @@ body {
   position: fixed;
   top: 0;
   left: -100%;
-  width: 30vw;
+  width: 26vw;
   height: 100vh;
 
   padding: 80px 0;
@@ -81,7 +81,7 @@ body {
   display: block;
   padding: 12px 24px;
   color: #333;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-size: 24px;
   font-weight: "Medium";
   text-decoration: none;
