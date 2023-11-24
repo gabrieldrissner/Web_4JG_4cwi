@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="index-style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="reset.css" />
+    <script src="index-script.js"></script>
     <script>
       tailwind.config = {
         theme: {
@@ -22,6 +23,8 @@
     </script>
   </head>
   <body>
+    <div id="output"></div>
+
     <div class="header">
       <div class="bg-main flex justify-between items-center p-8">
         <div class="menu">
@@ -53,344 +56,322 @@
 
     <div class="content">
       <div class="headerline">
-        <div class="headlineHeader">Spiel<span class="tag">tag</span></div>
+        <div class="headlineHeader">Tab<span class="tag">elle</span></div>
         <div class="matchdayButton">
-          <button type="button">Click Me!</button>
+          <div class="headlineHeader">Spiel<span class="tag">tag</span></div>
         </div>
       </div>
 
       <div class="spieltagWholeTable">
-
-<div class="home-table">        
-  <div class="tableline">
-  <div class="tablerank">
-    <span class="tablespace">1</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-    </div>
-    <div>
-      <span class="points">17</span>
-    </div>
-  </div>
-
-  <div class="tablerank">
-    <span class="tablespace">10</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-    </div>
-    <div>
-      <span class="points">17</span>
-    </div>
-  </div>
-</div>
-
-<div class="tableline">
-  <div class="tablerank">
-    <span class="tablespace">2</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-    </div>
-
-    <div>
-      <span class="points">17</span>
-    </div>
-  </div>
-
-  <div class="tablerank">
-    <span class="tablespace">11</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-    </div>
-    <div>
-      <span class="points">17</span>
-    </div>
-  </div>
-</div>
-
-<div class="tableline">
-  <div class="tablerank">
-    <span class="tablespace">3</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-
-    </div>
-
- 
-    <div>
-  
-      <span class="points">17</span>
-    </div>
-  </div>
-
-  <div class="tablerank">
-    <span class="tablespace">12</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-    </div>
-    <div>
-      <span class="points">17</span>
-    </div>
-  </div>
-</div>
-
-<div class="tableline">
-  <div class="tablerank">
-    <span class="tablespace">4</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-
-    </div>
-
- 
-    <div>
-  
-      <span class="points">17</span>
-    </div>
-  </div>
-
-  <div class="tablerank">
-    <span class="tablespace">13</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-    </div>
-    <div>
-      <span class="points">17</span>
-    </div>
-  </div>
-</div>
-<div class="tableline">
-  <div class="tablerank">
-    <span class="tablespace">5</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-    </div>
-    <div>
-      <span class="points">17</span>
-    </div>
-  </div>
-
-  <div class="tablerank">
-    <span class="tablespace">14</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-    </div>
-    <div>
-      <span class="points">17</span>
-    </div>
-  </div>
-</div>
-<div class="tableline">
-  <div class="tablerank">
-    <span class="tablespace">6</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-    </div>
-    <div>
-      <span class="points">17</span>
-    </div>
-  </div>
-
-  <div class="tablerank">
-    <span class="tablespace">15</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-    </div>
-    <div>
-      <span class="points">17</span>
-    </div>
-  </div>
-</div>
-<div class="tableline">
-  <div class="tablerank">
-    <span class="tablespace">7</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-    </div>
-    <div>
-      <span class="points">17</span>
-    </div>
-  </div>
-
-  <div class="tablerank">
-    <span class="tablespace">16</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-    </div>
-    <div>
-      <span class="points">17</span>
-    </div>
-  </div>
-</div>
-<div class="tableline">
-  <div class="tablerank">
-    <span class="tablespace">8</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-    </div>
-    <div>
-      <span class="points">17</span>
-    </div>
-  </div>
-
-  <div class="tablerank">
-    <span class="tablespace">17</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-    </div>
-    <div>
-      <span class="points">17</span>
-    </div>
-  </div>
-</div>
-<div class="tableline">
-  <div class="tablerank">
-    <span class="tablespace">9</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-    </div>
-    <div>
-      <span class="points">17</span>
-    </div>
-  </div>
-
-  <div class="tablerank">
-    <span class="tablespace">18</span>
-    <img class="logo" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">Borussia Dortmund</span>
-    </div>
-    <div>
-      <span class="points">17</span>
-    </div>
-  </div>
-</div>
-</div>
-<div class="games">
-
-  <div class="singleMatch">
-    <img class="logogames" src="./picture/bvb.png" alt="fail" />
-    <div>
-      <span class="textInMatch">-</span></div>
-
- 
-
-    <img class="logogames" src="./picture/bvb.png" alt="fail" />
-    <div>
-    </div>
-    </div> 
-
-    <div class="singleMatch">
-      <img class="logogames" src="./picture/bvb.png" alt="fail" />
-      <div>
-        <span class="textInMatch">-</span></div>
-  
-   
-  
-      <img class="logogames" src="./picture/bvb.png" alt="fail" />
-      <div>
-      </div>
-      </div>
-
-      <div class="singleMatch">
-        <img class="logogames" src="./picture/bvb.png" alt="fail" />
-        <div>
-          <span class="textInMatch">-</span></div>
-    
-     
-    
-        <img class="logogames" src="./picture/bvb.png" alt="fail" />
-        <div>
-        </div>
-        </div>
-
-        <div class="singleMatch">
-          <img class="logogames" src="./picture/bvb.png" alt="fail" />
-          <div>
-            <span class="textInMatch">-</span></div>
-      
-       
-      
-          <img class="logogames" src="./picture/bvb.png" alt="fail" />
-          <div>
-          </div>
-          </div>
-
-          <div class="singleMatch">
-            <img class="logogames" src="./picture/bvb.png" alt="fail" />
-            <div>
-              <span class="textInMatch">-</span></div>
-         
-        
-            <img class="logogames" src="./picture/bvb.png" alt="fail" />
-            <div>
+        <div class="home-table">
+          <div class="tableline">
+            <div class="tablerank">
+              <span class="tablespace">1</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+              <div>
+                <span class="points">17</span>
+              </div>
             </div>
+
+            <div class="tablerank">
+              <span class="tablespace">10</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tableline">
+            <div class="tablerank">
+              <span class="tablespace">2</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+
+            <div class="tablerank">
+              <span class="tablespace">11</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tableline">
+            <div class="tablerank">
+              <span class="tablespace">3</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+
+            <div class="tablerank">
+              <span class="tablespace">12</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tableline">
+            <div class="tablerank">
+              <span class="tablespace">4</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+
+            <div class="tablerank">
+              <span class="tablespace">13</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+          </div>
+          <div class="tableline">
+            <div class="tablerank">
+              <span class="tablespace">5</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+
+            <div class="tablerank">
+              <span class="tablespace">14</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+          </div>
+          <div class="tableline">
+            <div class="tablerank">
+              <span class="tablespace">6</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+
+            <div class="tablerank">
+              <span class="tablespace">15</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+          </div>
+          <div class="tableline">
+            <div class="tablerank">
+              <span class="tablespace">7</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+
+            <div class="tablerank">
+              <span class="tablespace">16</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+          </div>
+          <div class="tableline">
+            <div class="tablerank">
+              <span class="tablespace">8</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+
+            <div class="tablerank">
+              <span class="tablespace">17</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+          </div>
+          <div class="tableline">
+            <div class="tablerank">
+              <span class="tablespace">9</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+
+            <div class="tablerank">
+              <span class="tablespace">18</span>
+              <img class="logo" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">Borussia Dortmund</span>
+              </div>
+              <div>
+                <span class="points">17</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="games">
+          <div class="gamesrow">
+            <div class="singleMatch">
+              <img class="logogames" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">-</span>
+              </div>
+
+              <img class="logogames" src="./picture/bvb.png" alt="fail" />
+              <div></div>
             </div>
 
             <div class="singleMatch">
               <img class="logogames" src="./picture/bvb.png" alt="fail" />
               <div>
-                <span class="textInMatch">-</span></div>
-          
-           
-          
+                <span class="textInMatch">-</span>
+              </div>
+
+              <img class="logogames" src="./picture/bvb.png" alt="fail" />
+              <div></div>
+            </div>
+
+            <div class="singleMatch">
               <img class="logogames" src="./picture/bvb.png" alt="fail" />
               <div>
+                <span class="textInMatch">-</span>
               </div>
+
+              <img class="logogames" src="./picture/bvb.png" alt="fail" />
+              <div></div>
+            </div>
+
+            <div class="singleMatch">
+              <img class="logogames" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">-</span>
               </div>
 
-              <div class="singleMatch">
-                <img class="logogames" src="./picture/bvb.png" alt="fail" />
-                <div>
-                  <span class="textInMatch">-</span></div>
-            
-             
-            
-                <img class="logogames" src="./picture/bvb.png" alt="fail" />
-                <div>
-                </div>
-                </div>
+              <img class="logogames" src="./picture/bvb.png" alt="fail" />
+              <div></div>
+            </div>
 
-                <div class="singleMatch">
-                  <img class="logogames" src="./picture/bvb.png" alt="fail" />
-                  <div>
-                    <span class="textInMatch">-</span></div>
-              
-               
-              
-                  <img class="logogames" src="./picture/bvb.png" alt="fail" />
-                  <div>
-                  </div>
-                  </div>
+            <div class="singleMatch">
+              <img class="logogames" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">-</span>
+              </div>
 
-                  <div class="singleMatch">
-                    <img class="logogames" src="./picture/bvb.png" alt="fail" />
-                    <div>
-                      <span class="textInMatch">-</span></div>
-                
-                 
-                
-                    <img class="logogames" src="./picture/bvb.png" alt="fail" />
-                    <div>
-                    </div>
-                    </div>
-</div>
+              <img class="logogames" src="./picture/bvb.png" alt="fail" />
+              <div></div>
+            </div>
+
+            <div class="singleMatch">
+              <img class="logogames" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">-</span>
+              </div>
+
+              <img class="logogames" src="./picture/bvb.png" alt="fail" />
+              <div></div>
+            </div>
+
+            <div class="singleMatch">
+              <img class="logogames" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">-</span>
+              </div>
+
+              <img class="logogames" src="./picture/bvb.png" alt="fail" />
+              <div></div>
+            </div>
+
+            <div class="singleMatch">
+              <img class="logogames" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">-</span>
+              </div>
+
+              <img class="logogames" src="./picture/bvb.png" alt="fail" />
+              <div></div>
+            </div>
+
+            <div class="singleMatch">
+              <img class="logogames" src="./picture/bvb.png" alt="fail" />
+              <div>
+                <span class="textInMatch">-</span>
+              </div>
+
+              <img class="logogames" src="./picture/bvb.png" alt="fail" />
+              <div></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
