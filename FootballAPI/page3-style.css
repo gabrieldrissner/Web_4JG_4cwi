@@ -118,7 +118,7 @@ body {
   margin-left: 5rem;
   margin-right: 5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .textInMatch {
@@ -137,11 +137,9 @@ body {
 .headerline {
   font-family: "Inter";
   border-radius: 20px;
-  justify-content: space-between;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  justify-content: center;
   margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .headlineHeader {
@@ -159,30 +157,3 @@ body {
   margin-right: 5rem;
 }
 
-.singleMatch {
-  display: flex;
-  align-items: center;
-  border-radius: 20px;
-  background-color: #d9d9d9;
-  padding: 1rem;
-}
-
-.games {
-  margin-right: 5rem;
-  gap: 5px;
-}
-
-.logogames {
-  width: 36px;
-}
-
-.gamesrow {
-  padding: 1rem;
-}
-
-#tableline {
-  padding: 1rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  gap: 50px;
-}
