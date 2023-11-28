@@ -10,11 +10,11 @@ function loadTable() {
     console.log("data", data);
     const element = document.getElementById("tableline");
   
-    let output = '<div class="flex flex-wrap">';
+    let output = '<div class="flex">';
   
     data.forEach((team, index) => {
       output +=
-        ' <div class="flex items-center rounded-2xl bg-tablebg p-4 gap-4 w-80 mt-7 ml-7 h-16">';
+        ' <div class="team-container flex items-center rounded-2xl bg-tablebg p-4 gap-4 w-1/2 mt-7 h-16">';
       output += "<div class=font-bold>" + (index + 1) + "</div>";
       output += ' <div class="w-8"> <img src="' + team.teamIconUrl + '"/></div>';
       output += " <div class='flex-grow'>" + team.teamName + "</div>";
@@ -38,6 +38,8 @@ function loadTable() {
     console.log("output", output);
     element.innerHTML = output;
   }
+  
+  
   
   
   loadTable();

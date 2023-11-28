@@ -10,7 +10,7 @@ function insertTable(data) {
   console.log("data", data);
   const element = document.getElementById("tableline");
 
-  let output = '<div class="flex flex-wrap">';
+  let output = '<div class="flex">';
 
   data.forEach((team, index) => {
     output +=
@@ -22,7 +22,7 @@ function insertTable(data) {
     output += "</div>";
 
     if ((index + 1) % 2 == 0) {
-      output += '</div><div class="flex flex-wrap">';
+      output += '</div><div class="flex">';
     }
   });
 
@@ -33,4 +33,3 @@ function insertTable(data) {
 }
 
 
-loadTable();

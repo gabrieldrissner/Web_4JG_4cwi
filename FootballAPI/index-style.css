@@ -71,6 +71,7 @@ body {
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
   transition-duration: 0.25s;
 }
+
 .menu__item {
   display: block;
   padding: 12px 24px;
@@ -85,7 +86,6 @@ body {
 .menu__item:hover {
   background-color: #cfd8dc;
 }
-
 .headerline {
   display: flex;
 }

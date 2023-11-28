@@ -121,19 +121,6 @@ body {
   justify-content: center;
 }
 
-.textInMatch {
-  margin-left: 20px;
-}
-
-.tablespace {
-  font-weight: 700;
-}
-
-.points {
-  font-weight: 700;
-  margin-left: 20px;
-}
-
 .headerline {
   font-family: "Inter";
   border-radius: 20px;
@@ -148,12 +135,3 @@ body {
   font-weight: 700;
   font-size: 20px;
 }
-
-.tag {
-  font-weight: 400;
-}
-
-.matchdayButton {
-  margin-right: 5rem;
-}
-
