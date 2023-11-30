@@ -102,17 +102,13 @@ body {
 
 .headerline {
   font-family: "Inter";
-  border-radius: 20px;
-  justify-content: space-between;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  justify-content: center;
   margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .headlineHeader {
   font-family: "Inter";
-  margin-left: 5rem;
   font-weight: 700;
   font-size: 20px;
 }
@@ -123,14 +119,6 @@ body {
 
 .matchdayButton {
   margin-right: 5rem;
-}
-
-.singleMatch {
-  display: flex;
-  align-items: center;
-  border-radius: 20px;
-  background-color: #d9d9d9;
-  padding: 1rem;
 }
 
 .games {
@@ -147,6 +135,14 @@ body {
 }
 
 #tableline {
+  padding: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  gap: 50px;
+  font-family: "Inter";
+}
+
+#gamesrow {
   padding: 1rem;
   margin-left: 5rem;
   margin-right: 5rem;

@@ -31,5 +31,3 @@ function insertTable(data) {
   console.log("output", output);
   element.innerHTML = output;
 }
-
-
