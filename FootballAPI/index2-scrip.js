@@ -1,5 +1,5 @@
 function loadMatch() {
-  fetch("https://api.openligadb.de/getmatchdata/bl1/2023/13").then((res) =>
+  fetch("https://api.openligadb.de/getmatchdata/bl1/2023/14").then((res) =>
     res.json().then((data) => {
       insertMatch(data);
     })
